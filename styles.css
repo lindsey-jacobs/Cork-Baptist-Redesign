@@ -4,7 +4,6 @@ CORK BAPTIST CHURCH - CSS
 
 * {
   box-sizing: border-box;
-  background-color: lightblue;
 }
 
 
@@ -12,25 +11,101 @@ CORK BAPTIST CHURCH - CSS
 /* ==========================================================================
 BASE STYLES
 ========================================================================== */
+
+h2 {
+  color: darkgreen;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  background-color: lightblue;
+}
+
+.white-bkgd {
+  background-color: white;
+  padding: 10px 0 10px 0;
+}
+
+/* ==========================================================================
+HEADER & HERO
+========================================================================== */
+
 .main-nav {
-  float: right;
-  margin-right: 15px;
+  display: block;
+  text-align: center;
+  margin-top: 1.4em;
+}
+
+.main-nav ul {
+  padding-left: 0;
 }
 
 .main-nav li {
   list-style: none;
-  display: inline;
-  margin: 0 7px 0 7px;
+  margin: 0 0 8px 0;
 }
 
 .main-nav a {
   text-decoration: none;
   color: white;
 }
-/* ==========================================================================
-HEADER & HERO
-========================================================================== */
+
 .header {
   color: white;
   text-align: center;
+  width: 100%;
 }
+
+.header img {
+  width: 100%;
+}
+
+.header h1 {
+
+}
+
+
+.welcome {
+  margin: 0 15px 0 15px;
+}
+
+/* ==========================================================================
+MEDIA QUERIES
+========================================================================== */
+@media (min-width: 719px) {
+  .header {
+    margin-top: 2em;
+  }
+
+  .main-nav {
+    display: inline-block;
+    text-align: right;
+    float: right;
+    margin: 10px 10px 20px 0;
+    width: 48%;
+  }
+
+  .main-nav li {
+    display: inline;
+    margin: 0 4px 10px 4px;
+  }
+
+  .main-nav ul {
+    margin: 0;
+  }
+
+  .header h1 {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    float: left;
+    margin: 0 0 20px 15px;
+  }
+
+  .header p {
+    display: block;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    clear: both;
+  }
