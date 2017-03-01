@@ -4,13 +4,33 @@ CORK BAPTIST CHURCH - CSS
 
 * {
   box-sizing: border-box;
+  background-color: lightblue;
 }
+
 
 
 /* ==========================================================================
 BASE STYLES
 ========================================================================== */
+.main-nav {
+  float: right;
+  margin-right: 15px;
+}
 
+.main-nav li {
+  list-style: none;
+  display: inline;
+  margin: 0 7px 0 7px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: white;
+}
 /* ==========================================================================
 HEADER & HERO
 ========================================================================== */
+.header {
+  color: white;
+  text-align: center;
+}
