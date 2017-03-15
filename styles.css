@@ -4,7 +4,7 @@ CORK BAPTIST CHURCH - CSS
 
 * {
   box-sizing: border-box;
-  font-family: verdana;
+  font-family: arial;
 }
 
 
@@ -14,13 +14,14 @@ BASE STYLES
 ========================================================================== */
 
 h2 {
-  color: darkgreen;
+  color: #be5b70;
 }
 
 body {
   width: 100%;
   margin: 0;
-  background-color: lightblue;
+  background-color: white;
+  color: #3e3436;
 }
 
 .clearfix:after {
@@ -33,11 +34,24 @@ body {
   padding: 10px 0 10px 0;
 }
 
+#headerPhoto {
+  width: 100%;
+  height: 335px;
+  background-image: url("img/cork-ireland-church-facade.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mission {
+  background: #036968;
+  height: 350px;
+  position: relative;
+}
+
+
 /* ==========================================================================
 HEADER & MENU
 ========================================================================== */
-
-
 
 /*----- Header -----*/
 
@@ -47,44 +61,69 @@ HEADER & MENU
   width: 100%;
 }
 
-.header img {
-  width: 100%;
-}
-
-
-
 .welcome {
   margin: 0 15px 0 15px;
+  text-align: center;
 }
+
+.menu-wrap {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 10px 80px 10px 85px;
+  background: white;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+}
+
+
+#mission p {
+  display: block;
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.6em;
+  letter-spacing: 0.03em;
+  clear: both;
+  color: white;
+}
+
 
 /* ==========================================================================
 MEDIA QUERIES
 ========================================================================== */
-@media (min-width: 719px) {
+@media (min-width: 790px) {
 
-  .menu-wrap {
-    width: 100%;
-    position: fixed;
-    background: lightblue;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #FFF;
-  }
+  /*----- Menu -----*/
 
   .menu {
-    margin: 0 auto;
+    width: 88%;
+    float: right;
+  }
+
+  .nav-title {
+    float: right;
   }
 
   .menu li {
-    margin: -2px;
+    margin: 0 0 0 3px;
     list-style: none;
     font-family: verdana;
   }
 
   .menu a {
     transition: all linear 0.05s;
-    color: white;
+    color: #444;
     text-decoration: none;
+  }
+
+  .menu ul {
+    margin: 0;
+    padding: 0;
   }
 
   .menu li:hover > a, .menu .current-item > a {
@@ -97,10 +136,10 @@ MEDIA QUERIES
     line-height: 0;
   }
 
-  /*----- Top Level -----*/
+  /*----- Menu: Top Level -----*/
 
   .menu > ul > li {
-    float: right;
+
     display: inline-block;
     position: relative;
     font-size: 0.9em;
@@ -115,7 +154,7 @@ MEDIA QUERIES
     background: white;
   }
 
-  /*----- Bottom Level -----*/
+  /*----- Menu: Bottom Level -----*/
 
   .menu li:hover .sub-menu {
     z-index: 1;
@@ -126,45 +165,55 @@ MEDIA QUERIES
     width: 100%;
     padding: 5px 0;
     position: absolute;
-    top: 45%;
+    margin: 0 auto;
+    top: 100%;
     left: 0;
     z-index: -1;
     opacity: 0;
-    transition: opacity linear 0.05s;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-    background: lightblue;
+    transition: opacity linear 0.12s;
+    background: white;
   }
 
   .sub-menu li {
     display: block;
-    font-size: 16px;
+    font-size: 14px;
+    margin: 0 auto;
   }
 
   .sub-menu li a {
-    padding: 10px 30px;
+    padding: 12px 2px;
     display: block;
   }
 
-  /*--.sub-menu li a:hover, .sub-menu .current-item a {
+  .sub-menu li a:hover, .sub-menu .current-item a {
     background: #3e3436;
-  }--*/
+    color: white;
+  }
 
   /*----- Header -----*/
 
-  .header h1 {
+  #logo {
     display: inline-block;
-    text-align: left;
+    font-size: 29px;
     float: left;
-    margin: 0 0 0 -10px;
+    width: 5%;
+    margin: 0;
+    color: #3e3436;
   }
 
-  .header p {
-    display: block;
-    margin: 0 0 20px 0;
-    text-align: center;
-    clear: both;
+  #headerPhoto {
+    height: 535px;
   }
 
-  .header ul {
-    margin-top: 20px;
+  /*----- Mission Statement -----*/
+
+  #mission {
+    height: 160px;
+  }
+
+   #mission p {
+    width: 45%;
+    font-size: 25px;
+    line-height: 1.5em;
+    letter-spacing: 0.03em;
   }
