@@ -1,0 +1,46 @@
+/* Layout
+================================*/
+
+body {
+  padding-top: 20px
+}
+
+.container {
+  max-width: 1100px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.cbc {
+  width: 100%;
+  padding: 90px;
+}
+
+.cbc h1 {
+  margin: 0;
+  color: white;
+  font-size: 7em;
+  line-height: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cbc p {
+  color: white;
+  font-size: 1.2em;
+  letter-spacing: 0.07em;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+.img-full {
+  background-image: url(../img/cork-ireland-church-facade.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100% \9;
+  height: 465px;
+  margin: 0 auto;
+}

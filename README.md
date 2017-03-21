@@ -1,5 +1,3 @@
-This readme file was generated on 2017 02 17 by Lindsey Jacobs
-
 -------------------
 GENERAL INFORMATION
 -------------------
@@ -9,18 +7,8 @@ Cork Baptist Church Redesign
 Lindsey Jacobs
 lindseymariejacobs@gmail.com
 
-Date of data collection: 20170217 - 20170331
-
 -------------------
-DATA & FILE OVERVIEW
+WEBSITE OVERVIEW
 -------------------
 
-1. File List
-
-  A. index.html
-
-  B. styles.css
-
-
-This is the initial README file for my Code Louisville final project.
-
+This is a redesigned website for a church in Cork, Ireland. Their original site suffered from content overload. The multiple navigations made it difficult for the user to smoothly and intuitively move through the site. I added a fixed header to keep the helpful links nearby. I also made their site responsive design and added some jQuery functionality to link a daily devotional to the landing page.
