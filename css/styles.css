@@ -1,16 +1,32 @@
-/* Layout
+/* Page Styles
 ================================*/
 
 body {
-  padding-top: 20px
+  padding-top: 40px;
 }
 
 .container {
   max-width: 1100px;
 }
 
+.centerText {
+  text-align: center;
+}
+
+/* Header
+================================*/
+
 .navbar {
   background-color: white;
+}
+
+.nav-tabs {
+  border-bottom: 0px;
+}
+
+.dropdown-menu {
+  width: 100%;
+  text-align: center;
 }
 
 .cbc {
@@ -36,11 +52,15 @@ body {
 }
 
 .img-full {
-  background-image: url(../img/cork-ireland-church-facade.jpg);
+  background-image: url(../img/cork-ireland-baptist-church-facade.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100% \9;
   height: 465px;
   margin: 0 auto;
+}
+
+.imageMenu {
+  padding-top: 45px;
 }
