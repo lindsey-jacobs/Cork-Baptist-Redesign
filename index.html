@@ -11,12 +11,14 @@
   <meta name="author" content="Lindsey Jacobs">
 
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-  <link href="css/my-styles.css"  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Overpass|Roboto:300" rel="stylesheet">
+  <link href="css/styles.css"  rel="stylesheet">
 
 </head>
 
 
 <body>
+
   <!-- Nav Bar -->
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -29,13 +31,12 @@
       </button>
       <!-- Mobile Menu End -->
 
-      <a class="navbar-brand" href="#">CBC</a>
-      
+      <a class="navbar-brand" href="#">CORK BAPTIST CHURCH</a>
+
       <div class="collapse navbar-collapse" role="navigation">
         <ul class="nav navbar-nav navbar-right">
-          <li><a class="active" href="#">Home</a></li>
 
-          <li class="dropdown">
+          <li role="presentation" class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"</span>
             </a>
 
@@ -45,7 +46,7 @@
             </ul>
           </li>
 
-          <li class="dropdown">
+          <li role="presentation" class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Get Involved <span class="caret"></span>
             </a>
 
@@ -56,7 +57,7 @@
             </ul>
           </li>
 
-          <li>
+          <li role="presentation">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span>
             </a>
 
@@ -66,8 +67,8 @@
             </ul>
           </li>
 
-          <li><a href="#">Calendar</a></li>
-          <li><a href="#">Find Us</a></li>
+          <li role="presentation"><a href="#">Calendar</a></li>
+          <li role="presentation"><a href="#">Find Us</a></li>
 
         </ul>
       </div>
@@ -76,24 +77,42 @@
   <!-- End Navbar -->
 
 
-  <!-- Photo -->
+  <!-- Header Photo -->
 
-  <section class="img-responsive img-full">
+  <div class="img-responsive img-full">
+    <div class="transparent">
+      <div class="container row">
+        <div class="col-xs-8 col-md-7">
+          <h1 class="cbc centerText">Sharing and Enjoying the Life and Love of the Lord Jesus Christ with the People of Cork</h1>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <div class="cbc">
-      <h1>Cork Baptist Church</h1>
-      <p class="col-sm-8 col-md-6 col-lg-7">Sharing and Enjoying the Life and Love of the Lord Jesus Christ with the People of Cork</p>
+
+  <!-- Welcome -->
+  <div class="container">
+
+    <h3 class="centerText welcome">Cork Baptist Church is an active, Bible-believing church that is committed to sharing the good news of Jesus Christ with the world while serving one another and the wider community of Cork, Ireland.</h3>
+    
+    <hr>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p>As the body of Christ, we are diverse in age, ethnicity, personality, and experience. We seek to show that while the Word of God is living and active and exposes our hearts to the eyes of Him to whom we must give account of our lives (Hebrews 4:12-13), we have a High Priest in Jesus, who sympathizes with our weaknesses, and enables us to receive mercy and grace. All this so that we may hold fast to our confession and confidently draw near to the throne of grace (Hebrews 4:14-16).</p>
+        <p>You are warmly welcome to draw near to the throne with us at all of our gatherings.</p>
+      </div>
     </div>
 
-  </section>
+  </div>
+  <!-- Welcome End -->
 
 
-  <div class="container imageMenu">
-
-    <!-- Image Menu -->
+  <!-- Image Menu
+  <div class="container-fluid imageMenu">
     <div class="row">
       <div class="col-sm-4">
-        <!-- <b class="glyphicon"></b> -->
+        <!-- <b class="glyphicon"></b>
           <a href="#" class="thumbnail">
             <img src="img/Cork-Baptist-Church.jpg" alt="Closeup of the facade of Cork Baptist Church with a gate and red door.">
           </a>
@@ -110,27 +129,12 @@
       </div>
     </div>
 
-    <!-- WELCOME
-  <div class="white-bkgd">
-    <section class="welcome">
-
-      <h2>Welcome!</h2>
-
-      <p>We are an active, Bible-believing church that is committed to sharing the good news of Jesus Christ with the world while serving one another and the wider community of Cork.</p>
-
-      <p>As the body of Christ, we are diverse in age, ethnicity, personality, and experience. We seek to show that while the Word of God is living and active and exposes our hearts to the eyes of Him to whom we must give account of our lives (Hebrews 4:12-13), we have a High Priest in Jesus, who sympathizes with our weaknesses, and enables us to receive mercy and grace. All this so that we may hold fast to our confession and confidently draw near to the throne of grace (Hebrews 4:14-16).</p>
-
-      <p>You are warmly welcome to draw near to the throne with us at all of our gatherings.</p>
-
-    </section>
-  </div>
-
-     WELCOME -->
 
 
-     <div class="centerText">
-       <p>&copy; 2017 Cork Baptist Church</p>
-     </div>
+  <!-- Footer -->
+   <div class="centerText">
+     <p>&copy; 2017 Cork Baptist Church</p>
+   </div>
 
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
