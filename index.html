@@ -24,20 +24,22 @@
     <div class="container">
 
       <!-- Mobile Menu -->
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
       <!-- Mobile Menu End -->
 
-      <a class="navbar-brand" href="#">CORK BAPTIST CHURCH</a>
+      <a class="navbar-brand hidden-xs" href="#">CORK BAPTIST CHURCH</a>
 
+      <!-- Nav links -->
       <div class="collapse navbar-collapse" role="navigation">
         <ul class="nav navbar-nav navbar-right">
 
-          <li role="presentation" class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"</span>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"</span>
             </a>
 
             <ul class="dropdown-menu">
@@ -46,8 +48,8 @@
             </ul>
           </li>
 
-          <li role="presentation" class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Get Involved <span class="caret"></span>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">Get Involved <span class="caret"></span>
             </a>
 
             <ul class="dropdown-menu">
@@ -57,8 +59,8 @@
             </ul>
           </li>
 
-          <li role="presentation">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">Resources <span class="caret"></span>
             </a>
 
             <ul class="dropdown-menu">
@@ -67,23 +69,22 @@
             </ul>
           </li>
 
-          <li role="presentation"><a href="#">Calendar</a></li>
-          <li role="presentation"><a href="#">Find Us</a></li>
+          <li><a href="#">Calendar</a></li>
+          <li><a href="#">Find Us</a></li>
 
-        </ul>
-      </div>
-    </div>
-  </div>
-  <!-- End Navbar -->
+        </ul>   <!-- End Navbar UL -->
+      </div>   <!-- End Navigation Div -->
+    </div>   <!-- End Container Div -->
+  </div>  <!-- End Navbar Div -->
+
 
 
   <!-- Header Photo -->
-
   <div class="img-responsive img-full">
     <div class="transparent">
       <div class="container row">
         <div class="col-xs-8 col-md-7">
-          <h1 class="cbc centerText">Sharing and Enjoying the Life and Love of the Lord Jesus Christ with the People of Cork</h1>
+          <h1 class="cbc">Sharing and Enjoying the Life and Love of the Lord Jesus Christ with the People of Cork</h1>
         </div>
       </div>
     </div>
@@ -94,51 +95,76 @@
   <div class="container">
 
     <h3 class="centerText welcome">Cork Baptist Church is an active, Bible-believing church that is committed to sharing the good news of Jesus Christ with the world while serving one another and the wider community of Cork, Ireland.</h3>
-    
+
+    <hr class="cushion">
+
+    <div class="row">
+
+      <div class="col-md-3 col-md-offset-1">
+        <h4 class="centerText">As the body of Christ, we are diverse in age, ethnicity, personality, and experience. You are warmly welcome to draw near to the throne with us at all of our gatherings.</h4>
+        <br>
+      </div>
+
+      <div class="col-md-6 col-md-offset-1 mission">
+        <p>At CBC, we seek to show that while the Word of God is living and active and exposes our hearts to whom we must give account of our lives (Hebrews 4:12-13), we have a High Priest in Jesus, who sympathizes with our weaknesses, and enables us to receive mercy and grace. All this so that we may hold fast to our confession and confidently draw near to the throne of grace (Hebrews 4:14-16).</p>
+      </div>
+
+    </div>
+
     <hr>
 
-    <div class="row">
-      <div class="col-sm-6">
-        <p>As the body of Christ, we are diverse in age, ethnicity, personality, and experience. We seek to show that while the Word of God is living and active and exposes our hearts to the eyes of Him to whom we must give account of our lives (Hebrews 4:12-13), we have a High Priest in Jesus, who sympathizes with our weaknesses, and enables us to receive mercy and grace. All this so that we may hold fast to our confession and confidently draw near to the throne of grace (Hebrews 4:14-16).</p>
-        <p>You are warmly welcome to draw near to the throne with us at all of our gatherings.</p>
-      </div>
-    </div>
 
-  </div>
-  <!-- Welcome End -->
+    <!-- Welcome End -->
 
 
-  <!-- Image Menu
-  <div class="container-fluid imageMenu">
-    <div class="row">
-      <div class="col-sm-4">
-        <!-- <b class="glyphicon"></b>
-          <a href="#" class="thumbnail">
-            <img src="img/Cork-Baptist-Church.jpg" alt="Closeup of the facade of Cork Baptist Church with a gate and red door.">
-          </a>
-      </div>
-      <div class="col-sm-4">
-        <a href="#" class="thumbnail">
-          <img src="img/cork-map.jpg" alt="...">
+    <!-- Image Menu -->
+
+    <div class="row imgMenu">
+      <div class="col-sm-12">
+        <a href="#">
+          <img src="img/map-3.jpg" alt="C..." class="img-responsive img-circle">
         </a>
-      </div>
-      <div class="col-sm-4">
-        <a href="#" class="thumbnail">
-          <img src="img/cork-ireland-baptist-church.jpg" alt="...">
+        <a href="#">
+          <img src="img/map-4.jpg" alt="C...." class="img-responsive img-circle">
+        </a>
+        <a href="#">
+          <img src="img/map-5.jpg" alt="C..." class="img-responsive img-circle">
         </a>
       </div>
     </div>
 
 
+  </div> <!-- End Container Div -->
 
-  <!-- Footer -->
-   <div class="centerText">
-     <p>&copy; 2017 Cork Baptist Church</p>
-   </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
 
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </div>
+          <div class="col-sm-4">
+            <h4 class="centerText">Helpful Links</h4>
+          </div>
+
+          <div class="col-sm-4">
+            <h4 class="centerText">Helpful Links</h4>
+          </div>
+
+          <div class="col-sm-4">
+            <h4 class="centerText">Helpful Links</h4>
+          </div>
+
+        </div>
+      </div>
+
+      <hr class="container">
+      <p class="centerText">&copy; 2017 Cork Baptist Church</p>
+
+    </div> <!-- End Footer Div -->
+
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+
 </body>
 
 </html>

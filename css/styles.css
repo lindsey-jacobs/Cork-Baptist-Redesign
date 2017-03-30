@@ -8,9 +8,20 @@ h2 {
   color: #5da9b6;
 }
 
+h4 {
+  line-height: 1.6em;
+  margin-top: 0px;
+}
+
+.footer h4 {
+  margin: 10px 0;
+}
+
 p {
   font-family: 'Roboto', sans-serif;
   color: #333;
+  line-height: 1.5em;
+  font-size: 1.2em;
 }
 
 body {
@@ -19,21 +30,23 @@ body {
 
 .container {
   max-width: 1100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .centerText {
   text-align: center;
 }
 
+.cushion {
+  padding-bottom: 20px;
+}
+
 /* Header
 ================================*/
 
 .navbar {
-  background-color: rgba(255,255,255,0.9);
-}
-
-.navbar-brand {
-  visibility: hidden;
+  background-color: #fff;
 }
 
 .nav-tabs {
@@ -41,13 +54,14 @@ body {
 }
 
 .transparent {
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.3);
   height: 350px;
   width: 100%;
 }
 
 .cbc {
-  padding-top: 80px;
+  padding-top: 25px;
+  padding-left: 5px;
   margin: 0 auto;
   color: white;
   font-size: 2em;
@@ -58,7 +72,7 @@ body {
 }
 
 .img-full {
-  background-image: url(../img/cork-ireland-baptist-church-facade.jpg);
+  background-image: url(../img/drawing-cork.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -67,8 +81,20 @@ body {
   margin: 0 auto;
 }
 
-.imageMenu .col-sm-4 {
-  padding: 45px 0 0;
+.imgMenu {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.imgMenu img {
+  width: 70%;
+  height: auto;
+  margin: 25px  auto;
+}
+
+.imgMenu img:hover {
+  color: black;
 }
 
 .thumbnail {
@@ -86,24 +112,41 @@ body {
   padding-top: 50px;
   padding-bottom: 30px;
   line-height: 1.3em;
+  color: #a5bea5;
 }
 
-.welcome p {
-  font-size: 1.1em;
+.mission p {
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+
+.footer {
+  background-color: #a5bea5;
+  color: #fff;
+  height: 300px;
+  margin: 25px 0px 0px;
+  padding: 0px;
+}
+.footer p {
+  color: inherit;
 }
 
 
 /* Media Queries
 ================================*/
-@media (min-width: 545px) {
-  .navbar-brand {
-    visibility: visible;
+
+@media (min-width: 500px) {
+  .imgMenu img {
+    width: 40%;
+    display: inline-block;
+    margin: 10px 20px;
   }
 }
 
 @media (min-width: 768px) {
+
   .img-full, .transparent {
-    height: 460px;
+    height: 450px;
     padding: 0;
   }
   .cbc {
@@ -111,5 +154,10 @@ body {
     padding-left: 80px;
     padding-top: 120px;
     letter-spacing: -0.05em;
+  }
+  .imgMenu img {
+    width: 25%;
+    display: inline-block;
+    margin: 25px;
   }
 }
