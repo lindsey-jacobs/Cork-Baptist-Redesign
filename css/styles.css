@@ -126,10 +126,10 @@ i {
 ================================*/
 
 .welcome,
-.tagline {
+.mission {
   max-width: 850px;
   margin: 0 auto;
-  line-height: 1.3em;
+  line-height: 1.6em;
   color: #a5bea5;
 }
 
@@ -138,14 +138,14 @@ i {
   padding-bottom: 30px;
 }
 
-.tagline,
+.mission,
 .gather {
   padding-top: 30px;
   padding-bottom: 60px;
 }
 
 .gather h3 {
-  padding-bottom: 12px;
+  padding-bottom: 15px;
 }
 
 .gather p {
@@ -182,7 +182,7 @@ i {
 .footer {
   background-color: #a5bea5;
   color: #fff;
-  height: 575px;
+  height: 585px;
   padding: 25px 20px 0;
 }
 .footer p {
@@ -199,9 +199,9 @@ i {
 }
 
 .copyright {
-	opacity: .8;
-	font-size: .9em;
-  margin-top: 20px;
+	opacity: .7;
+	font-size: .8em;
+  margin-top: 25px;
 }
 
 .link-list {
@@ -255,7 +255,7 @@ i {
   }
 
   .footer {
-    height: 285px;
+    height: 290px;
     padding-top: 15px;
   }
   .copyright {
