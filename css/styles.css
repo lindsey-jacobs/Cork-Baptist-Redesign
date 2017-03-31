@@ -111,13 +111,6 @@ a:visited {
   cursor: pointer;
 }
 
-#facade {
-  width: 100%;
-  max-width: 460px;
-  height: auto;
-  padding: 15px auto;
-}
-
 i {
   margin-left: 5px;
 }
@@ -178,9 +171,7 @@ i {
   height: 585px;
   padding: 25px 20px 0;
 }
-.footer p {
-  color: inherit;
-}
+.footer p,
 .footer a {
   color: inherit;
 }
@@ -243,7 +234,6 @@ i {
   }
   .imgMenu img {
     width: 25%;
-    display: inline-block;
     margin: 25px;
   }
 
@@ -255,6 +245,6 @@ i {
     margin-top: 50px;
   }
 	.link-list {
-		margin-top: 32px;
+		margin-top: 30px;
 	}
 }
