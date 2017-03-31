@@ -26,4 +26,4 @@ I only have the index.html page completed for now, but my goal is complete the s
 INSTRUCTIONS
 -------------------
 
-To view the site, just run index.html.
+To view the site, run index.html or click http://htmlpreview.github.io/?https://github.com/lindsey-jacobs/Cork-Baptist-Redesign/blob/master/index.html
