@@ -13,10 +13,6 @@ h4 {
   margin-top: 0px;
 }
 
-.footer h4 {
-  margin: 10px 0;
-}
-
 p {
   font-family: 'Roboto', sans-serif;
   color: #333;
@@ -26,6 +22,10 @@ p {
 
 body {
   padding-top: 50px;
+}
+
+a:visited {
+  text-decoration: none;
 }
 
 .container {
@@ -41,6 +41,8 @@ body {
 .cushion {
   padding-bottom: 20px;
 }
+
+
 
 /* Header
 ================================*/
@@ -81,6 +83,10 @@ body {
   margin: 0 auto;
 }
 
+
+/* Images & Icons
+================================*/
+
 .imgMenu {
   text-align: center;
   padding-top: 20px;
@@ -94,13 +100,11 @@ body {
 }
 
 .imgMenu img:hover {
-  color: black;
+  cursor: pointer;
 }
 
-.thumbnail {
-  border: none;
-  padding-left: 0;
-  padding-right: 0;
+i {
+  margin-left: 5px;
 }
 
 /* Layout
@@ -120,15 +124,56 @@ body {
   line-height: 1.7em;
 }
 
+#map {
+  height: 180px;
+  width: 180px;
+  margin: 10px;
+}
+
+
+
+/* Footer
+================================*/
+
 .footer {
   background-color: #a5bea5;
   color: #fff;
-  height: 300px;
-  margin: 25px 0px 0px;
-  padding: 0px;
+  height: 530px;
+  padding: 10px 20px 0;
 }
 .footer p {
   color: inherit;
+}
+.footer a {
+  color: inherit;
+}
+.footer li {
+  text-align: center;
+}
+
+.copyright {
+	opacity: .8;
+	font-size: .9em;
+  margin-top: 15px;
+}
+
+.link-list {
+	list-style-type: none;
+	line-height: 1.8;
+	margin: 0;
+	padding: 0;
+}
+.link-list .heading {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+#heart,
+#link,
+#mail {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 3px;
 }
 
 
@@ -160,4 +205,13 @@ body {
     display: inline-block;
     margin: 25px;
   }
+  .footer {
+    height: 270px;
+  }
+  .copyright {
+    margin-top: 40px;
+  }
+	.link-list {
+		margin-top: 32px;
+	}
 }
